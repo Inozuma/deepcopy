@@ -2,7 +2,7 @@
 library to make deep copies in go
 
 ```Go
-   newValue := deepcopy.Do(value)
+   newValue := deepcopy.Copy(value)
 ```
 
 It manages when struct have pointers to parents/children. e.g:
